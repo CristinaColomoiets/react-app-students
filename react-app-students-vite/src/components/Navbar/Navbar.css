@@ -1,0 +1,25 @@
+.Navbar {
+    border-bottom: 1px solid;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 236, 241);
+    font-family: sans-serif;
+}
+
+h1{
+    color: #14428b;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+.Navbar .logo {
+    width: 80px;
+}
+
+
+.Navbar .menu{
+    width: 40px;
+}
