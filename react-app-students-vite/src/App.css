@@ -1,4 +1,32 @@
-.App {
+body {
   font-family: sans-serif;
-  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.DeviceCard {
+  border: 1px solid grey;
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+
+}
+
+button,
+select {
+  padding: 3px 10px;
+  min-width: 50px;
+  height: 40px;
+  margin: 5px;
+  font-size: 1rem;
 }

@@ -1,10 +1,12 @@
 import './App.css'
 import HomePage from './components/HomePage/HomePage'
 
-const App = () =>{
+function App() {
 
   return (
-    <HomePage/>
+    <div className="App">
+      <HomePage />
+    </div>
   )
 }
 

@@ -1,18 +1,18 @@
+import reactLogo from './../../assets/react.svg'
+import navicon from './../../assets/navicon.png'
 import './Navbar.css'
-import  studentLogo from '../../assets/logo.png'
-import MenuNavicon from '../../assets/menu.png'
 
-
-const Navbar = () =>{
+const Navbar = () => {
     return (
-        <header>
-            <nav className='Navbar'>
-                <img className='menu' src={MenuNavicon} alt="Logotipo" />
-                <h1>Things</h1>
-                <img className='logo' src={studentLogo} alt="Logotipo" />
-                
+        <div className="Navbar">
+            <nav>
+                <div className='buttons'>
+                    <img src={navicon} alt="Navicon" className='navicon' />
+                    <h1>Students</h1>
+                </div>
+                <img src={reactLogo} alt="Logotipo" className='logo' />
             </nav>
-        </header>
+        </div>
     )
 }
 
